@@ -9,7 +9,7 @@ import errorHandler from "./server/middlewares/errorhandlers.js";
 import routes from './server/routes/index.js';
 import config from './server/config/index.js';
 import traceLogger from './server/logger/tracelogger.js';
-import socketSetter from './server/services/socket';
+import socketSetter from './server/services/socket.js';
 import messageController from './server/controllers/messageController.js';
 
 const {
