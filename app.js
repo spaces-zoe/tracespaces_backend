@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import logger from 'morgan';
 import bodyParser from 'body-parser';
 import helmet from "helmet";
-import errorHandler from "./server/middlewares/errorhandlers";
+import errorHandler from "./server/middlewares/errorhandlers.js";
 // import { notFound, errorHandler } from './server/middlewares/errorhandlers';
 import routes from './server/routes';
 import config from './server/config/index';
