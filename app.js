@@ -7,10 +7,10 @@ import helmet from "helmet";
 import errorHandler from "./server/middlewares/errorhandlers.js";
 // import { notFound, errorHandler } from './server/middlewares/errorhandlers';
 import routes from './server/routes/index.js';
-import config from './server/config/index';
-import traceLogger from './server/logger/tracelogger';
+import config from './server/config/index.js';
+import traceLogger from './server/logger/tracelogger.js';
 import socketSetter from './server/services/socket';
-import messageController from './server/controllers/messageController';
+import messageController from './server/controllers/messageController.js';
 
 const {
   chat
