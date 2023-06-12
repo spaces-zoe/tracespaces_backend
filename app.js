@@ -6,7 +6,7 @@ import bodyParser from 'body-parser';
 import helmet from "helmet";
 import errorHandler from "./server/middlewares/errorhandlers.js";
 // import { notFound, errorHandler } from './server/middlewares/errorhandlers';
-import routes from './server/routes';
+import routes from './server/routes/index.js';
 import config from './server/config/index';
 import traceLogger from './server/logger/tracelogger';
 import socketSetter from './server/services/socket';
