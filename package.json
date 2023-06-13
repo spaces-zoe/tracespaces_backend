@@ -1,7 +1,7 @@
 {
   "name": "trace_spaces_api",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "main": "app.js",
   "author": "nene_zoe",
   "license": "MIT",
